@@ -9,12 +9,7 @@ const DefaultApp = styled.div`
   justify-content: center;
   flex-direction: column;
   height: 500px;
-  width: 500px;
-  .test {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
+  width: 100%;
 `
 
 class App extends Component {

@@ -6,15 +6,26 @@ const listWrap = styled.div `
     justify-content: 'center';
     align-items: 'center';
     flex-direction: 'column';
-    
-   
 `
 const Title = styled.div`
   font-size: 1.5em;
   text-align: center;
   color: palevioletred;
   display: inline-flex;
-
+  min-width: 200px;
+  justify-content: space-between;
+  max-width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: scroll;
+    .TodoItem {
+        width: 130px;
+        max-width: 100px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: scroll;
+        text-align: left;
+    }
     .None {
         text-decoration: line-through;
     }
